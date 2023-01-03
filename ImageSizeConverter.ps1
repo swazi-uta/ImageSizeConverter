@@ -1,6 +1,5 @@
 #
 # 画像の高さ方向のサイズ変更
-# 参考:https://kotatuinu.cocolog-nifty.com/blog/2020/04/post-dbb3a0.html
 #
 # $path:   画像フォルダ
 # $height: 高さ
