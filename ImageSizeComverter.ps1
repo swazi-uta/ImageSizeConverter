@@ -26,12 +26,12 @@ $imgFList = @{
 }
 
 if (-not (Test-Path $path)) {
-	write-error "Invalid argment `"path`"."
+	write-error "Invalid argument `"path`"."
 	return
 }
 
 if (!$imgFList.ContainsKey($imgf)) {
-	write-error "Invalid argment `"imgf`"."
+	write-error "Invalid argument `"imgf`"."
 	return
 }
 $imageFormat = $imgFList[$imgf]
